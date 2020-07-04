@@ -1,0 +1,4 @@
+R5T.D0026.Standard - The standard aggregation library for the IOSPlatformSwitch service, sync and async, without an input OSPlatform parameter.
+
+Goals
+
