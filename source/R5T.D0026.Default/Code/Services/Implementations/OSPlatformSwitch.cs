@@ -1,14 +1,14 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 
 using R5T.D0024;
 
-using IParameterizedOSPlatformSwitch = R5T.D0025.IOSPlatformSwitch;
+using IParameterizedOSPlatformSwitch = R5T.D0025.IOSPlatformSwitch;using R5T.T0064;
 
 
 namespace R5T.D0026.Default
-{
-    public class OSPlatformSwitch : IOSPlatformSwitch
+{[ServiceImplementationMarker]
+    public class OSPlatformSwitch : IOSPlatformSwitch,IServiceImplementation
     {
         private IOSPlatformProvider OSPlatformProvider { get; }
         private IParameterizedOSPlatformSwitch ParameterizedOSPlatformSwitch { get; }
